@@ -10,7 +10,7 @@ app.set('port',(process.env.PORT||5000))
 
 // allow us to process the data
 app.use(bodyParser.urlencoded({extended: false}))
-app.user(bodyParser.json())
+app.use(bodyParser.json())
 
 
 // ROUTES
